@@ -35,7 +35,7 @@ public virtual double Area()
   
  По умолчанию методы не являются виртуальными. Такой метод переопределить невозможно.  
   
- Нельзя использовать `virtual` модификатор `static`, `abstract`, `private`, или `override` модификаторы. В следующем примере показано виртуальное свойство.  
+ Ключевое слово `virtual` невозможно применить к методам, свойствам и индексаторам при объявлении которых были использованы `static`, `abstract`, `private`, или `override` модификаторы. В следующем примере показано виртуальное свойство.  
   
  [!code-csharp[csrefKeywordsModifiers#26](../../../csharp/language-reference/keywords/codesnippet/CSharp/virtual_1.cs)]  
   
